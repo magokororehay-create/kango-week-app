@@ -152,7 +152,8 @@ ul.plain li{display:flex;justify-content:space-between;gap:6px;align-items:cente
   .banner,#problems{display:none!important}.main{display:block}
   .board{grid-template-columns:36px repeat(var(--n),minmax(0,1fr));min-width:0}
   .week{overflow:visible;padding:0;border:0;width:100%;gap:3px}
-  .wday{flex:1 1 0;min-width:0}.wtime{flex:0 0 30px}
+  .wday{flex:1 1 0;min-width:0}.wtime{flex:0 0 32px}
+  .tcol span{font-size:8px;right:2px}
   .whead{height:34px;padding:1px 2px;font-size:10px}.whead .small{font-size:8px}
   .card,.wcard{font-size:9px;padding:1px 2px}.tag{font-size:8px}
   .lane,.whead,.morebox,.lh{-webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -220,10 +221,11 @@ let S = null, VERSION = '', BASE = '', PROBLEMS = [], ADMIN = false, R = null, u
 let view = 'board', viewChoice = 'this', dow = [1, 2, 3, 4, 5].includes(K.dowOf(today())) ? K.dowOf(today()) : 1;
 let drawerRef = null, drag = null, suppressClick = false, focusBeforeDrawer = null, printRestore = null;
 const board = $('#board'), tray = $('#tray'), drawer = $('#drawer');
-const px = () => printRestore !== null ? 0.98 : 1.3;
+// 印刷は1分=1px（整数にしないと罫線の間隔がにじんでずれて見える）。
+const px = () => printRestore !== null ? 1 : 1.3;
 function metrics() {
   const style = document.documentElement.style;
-  style.setProperty('--H', (T1 - T0) * px() + 'px'); style.setProperty('--printH', (T1 - T0) * .98 + 'px');
+  style.setProperty('--H', (T1 - T0) * px() + 'px'); style.setProperty('--printH', (T1 - T0) + 'px');
   style.setProperty('--hour', 60 * px() + 'px'); style.setProperty('--half', 30 * px() + 'px');
 }
 function currentView() {
