@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="看護 曜日の訪問盤の管理者用マニュアル。月〜金の型、組み替え、保存、特指示、休止、予定と困ったときの手順。">
+<title>看護 曜日の訪問盤 使い方（管理者用）</title>
+<style>
+:root{--teal:#00AA9B;--deep:#006c63;--pale:#eaf8f6;--yellow:#F5E300;--ink:#222;--muted:#545f60;--line:#d5e3e1;--red:#ac3030;--redpale:#fff0ee}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:#f4f7f6;color:var(--ink);font:18px/1.85 "Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif;overflow-wrap:anywhere}a{color:var(--deep);text-underline-offset:.2em}a:hover{color:#004d46}a:focus-visible{outline:3px solid #1774bd;outline-offset:4px}p{margin:.6em 0 1em}header{background:var(--teal);padding:42px max(24px,calc((100% - 1100px)/2));color:#fff;border-bottom:8px solid var(--yellow)}header .org{font-size:17px;margin:0 0 12px}h1{font-size:clamp(26px,3.1vw,38px);line-height:1.5;margin:0;letter-spacing:.02em}header .lead{margin:16px 0 0;font-size:20px}main{max-width:1148px;margin:auto;padding:28px 24px 56px}nav,.section,.quick{background:#fff;border:1px solid var(--line);border-radius:16px;margin-bottom:26px;padding:28px 32px}nav h2{margin:0 0 12px;font-size:22px}nav ol{display:grid;grid-template-columns:1fr 1fr;gap:6px 30px;padding-left:1.7em;margin:0}nav a{display:inline-block;padding:3px 0}.section{scroll-margin-top:24px}.section>h2{display:flex;align-items:baseline;gap:12px;font-size:27px;line-height:1.55;margin:0 0 24px;border-bottom:2px solid var(--line);padding-bottom:14px}.secno{color:var(--deep);font-size:21px;white-space:nowrap}h3{font-size:22px;line-height:1.6;margin:28px 0 12px}h3:first-child{margin-top:0}.eyebrow{font-size:17px;color:var(--deep);font-weight:bold;margin:0 0 8px}.quick h2{font-size:26px;margin:0 0 15px}.quick p:last-child{margin-bottom:0}.callout{border-left:6px solid var(--teal);background:var(--pale);border-radius:0 10px 10px 0;padding:17px 21px;margin:20px 0}.callout p:last-child{margin-bottom:0}.caution{border-color:var(--red);background:var(--redpale)}.accent{border-color:#b3a600;background:#fffde0}.steps{padding:0;list-style:none;counter-reset:step}.steps>li{counter-increment:step;position:relative;padding:0 0 20px 51px;margin-top:14px}.steps>li::before{content:counter(step);position:absolute;left:0;top:2px;display:grid;place-items:center;width:34px;height:34px;background:var(--deep);color:#fff;border-radius:50%;font-weight:700;line-height:1}.steps>li>strong{font-size:21px}.steps>li p{margin:6px 0 12px}ul{padding-left:1.5em}li+li{margin-top:7px}.table-wrap{overflow-x:auto;margin:18px 0}table{width:100%;border-collapse:collapse;font-size:17px}th,td{border:1px solid var(--line);padding:12px 14px;text-align:left;vertical-align:top}th{background:var(--pale);font-weight:700}thead th{color:var(--deep)}th[scope=row]{width:23%}figure{margin:24px 0;break-inside:avoid;page-break-inside:avoid}figure img{display:block;width:100%;height:auto;border:1px solid #cbd8d6;border-radius:8px}figcaption{font-size:16px;color:var(--muted);line-height:1.7;margin-top:10px}.shot{position:relative;isolation:isolate}.marker{position:absolute;left:var(--x);top:var(--y);transform:translate(-50%,-50%);display:grid;place-items:center;width:clamp(18px,2.8vw,32px);height:clamp(18px,2.8vw,32px);font-size:clamp(12px,1.6vw,18px);font-weight:700;line-height:1;background:var(--deep);color:#fff;border:2px solid #fff;border-radius:50%;box-shadow:0 1px 4px #0004;pointer-events:none}.pair{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}.pair figure{min-width:0}.with-shot{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,340px);gap:28px;align-items:start}.with-shot>div{min-width:0}.with-shot figure{margin-top:0}.drawer-shot{max-width:410px;margin-inline:auto}.small-shot{max-width:360px;margin-inline:auto}.phone{width:320px;max-width:100%;margin-inline:auto}.natural img{width:auto;max-width:100%}.strip{overflow-x:auto;border-radius:8px}.strip img{width:auto;max-width:none}.fine{font-size:16px;color:var(--muted)}.badge{display:inline-block;border:1px solid #98c9c1;border-radius:5px;background:var(--pale);padding:1px 8px;color:var(--deep);font-weight:bold}.help{border-top:1px solid var(--line);padding-top:18px;margin-top:24px}.help h3{margin:0 0 8px}.help p{margin:0 0 10px}.help ol{margin-bottom:10px}.back{margin-top:26px;text-align:right;font-size:16px}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:16px}code,kbd{font:inherit;background:#f0f3f2;padding:1px 5px;border-radius:4px}kbd{border:1px solid var(--line)}.nw{display:inline-block}
+@media(max-width:700px){body{font-size:17px;line-height:1.85}header{padding:28px 20px}header .lead{font-size:18px}main{padding:20px 14px 36px}nav,.section,.quick{padding:23px 20px;border-radius:12px}nav ol,.pair,.with-shot{grid-template-columns:1fr}.section>h2{font-size:23px;gap:9px}h3,.steps>li>strong{font-size:20px}.steps>li{padding-left:43px}.steps>li::before{width:31px;height:31px}.table-wrap table{min-width:520px}.callout{padding:14px 16px}.pair{gap:0}.with-shot{gap:18px}.with-shot figure{width:100%;max-width:340px}.strip{border:1px solid var(--line)}.phone{width:320px}.marker{width:20px;height:20px;font-size:12px}}
+@page{size:A4 portrait;margin:14mm}
+@media print{html{scroll-behavior:auto}body{background:#fff;font-size:10.5pt;line-height:1.65}header{padding:8mm;background:var(--teal)!important}header .org{font-size:10pt}h1{font-size:20pt}header .lead{font-size:12pt}main{max-width:none;padding:6mm 0}nav,.section,.quick{padding:5mm;margin-bottom:6mm;border-radius:3mm;box-shadow:none}nav h2,.quick h2{font-size:14pt}.section>h2{font-size:16pt;margin-bottom:4mm;padding-bottom:3mm}.secno{font-size:13pt}h2,h3{break-after:avoid;page-break-after:avoid}h3,.steps>li>strong{font-size:12pt}p,li{orphans:3;widows:3}.steps>li{padding-left:11mm;padding-bottom:3mm}.steps>li::before{width:7mm;height:7mm;font-size:10pt}.callout,.help{break-inside:avoid;page-break-inside:avoid}.table-wrap,.strip{overflow:visible}.table-wrap table{min-width:0;font-size:10pt}th,td{padding:2.5mm}tr{break-inside:avoid}thead{display:table-header-group}figure{margin:5mm 0}figure img{max-height:195mm;object-fit:contain;object-position:top}.strip img{width:100%;max-width:100%;height:auto}figcaption,.fine,.back,footer,.eyebrow{font-size:9pt}.marker{width:6mm;height:6mm;font-size:9pt}.pair{gap:5mm}.with-shot{grid-template-columns:minmax(0,1fr) 65mm;gap:5mm}.with-shot figure{width:65mm}.phone{width:65mm}.small-shot{max-width:80mm}*{print-color-adjust:exact;-webkit-print-color-adjust:exact}a{color:var(--deep)}}
+</style>
+</head>
+<body>
+<header id="top">
+  <p class="org">株式会社まごころ 訪問看護</p>
+  <h1><span class="nw">看護 曜日の訪問盤</span><br>使い方（管理者用）</h1>
+  <p class="lead">月〜金の型を組み替え、保存する手順です。</p>
+</header>
+<main>
+<div class="quick">
+  <p class="eyebrow">毎月・毎週の要点</p>
+  <h2>型を確認 → 組み替え → まとめて確定</h2>
+  <ul>
+    <li><strong>毎月：</strong>第1〜5週の枠、新規・終了、特指示の期間を確認します。</li>
+    <li><strong>毎週：</strong>「来週」で実際の日付・休止・予定を確認します。赤枠は同じ週に来うる重なりです。</li>
+    <li><strong>編集後：</strong>「まとめて確定」を押し、「保存しました」を確認します。</li>
+  </ul>
+  <p><strong>訪問カードを動かすと、曜日の型そのものが変わります。</strong>「この日だけ」の変更はありません。日々の変更は iBow で管理してください。</p>
+</div>
+<nav aria-label="目次">
+  <h2>目次</h2>
+  <ol>
+    <li><a href="#purpose">この盤でできること・しないこと</a></li>
+    <li><a href="#login">ひらき方・ログイン・ログアウト</a></li>
+    <li><a href="#screen">画面の見取り図</a></li>
+    <li><a href="#views">見方：型・第1〜5週・今週・来週</a></li>
+    <li><a href="#display">表示：曜日の盤・週の一覧・一覧</a></li>
+    <li><a href="#colors">色・赤枠・重なり</a></li>
+    <li><a href="#move">カードを動かして組み替える</a></li>
+    <li><a href="#save">下書きと保存</a></li>
+    <li><a href="#details">詳細を開いて編集する</a></li>
+    <li><a href="#special">特指示の期間と枠</a></li>
+    <li><a href="#pause">入院などの休止と再開</a></li>
+    <li><a href="#new">新しい利用者を足す</a></li>
+    <li><a href="#events">サ担・会議・契約などの予定</a></li>
+    <li><a href="#nurse">看護師にはどう見えるか</a></li>
+    <li><a href="#print">印刷する</a></li>
+    <li><a href="#help">困ったとき（Q&amp;A）</a></li>
+    <li><a href="#rules">運用の決めごと</a></li>
+  </ol>
+</nav>
+
+<section class="section" id="purpose">
+  <h2><span class="secno">01</span>この盤でできること・しないこと</h2>
+  <p>何曜日の何時に、どの列で訪問するかという<strong>繰り返しの型</strong>を管理します。第1・3週だけの枠や、期間つきの特指示も置けます。</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">この盤で管理します</th><th scope="col">別に管理します</th></tr></thead>
+    <tbody>
+      <tr><td>月〜金の曜日・列・開始時刻・訪問時間・第〇週</td><td>その日だけの訪問変更・追加など、日々の予定は iBow で管理します。</td></tr>
+      <tr><td>利用者の開始・終了、休止・再開、特指示の期間</td><td>この盤の編集は iBow へ反映されません。iBow との自動取り込み・同期はありません。</td></tr>
+      <tr><td>サ担・会議・契約・その他の、日付つき／毎週の予定</td><td>メール通知や、看護師を列へ割り当てる機能はありません。</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout caution"><strong>「今週」「来週」で編集しても、訪問の型が変わります。</strong><p>表示を絞ることと、変更する範囲は別です。1回だけの振り替えのつもりで、訪問カードを動かさないでください。</p></div>
+  <p>以前の<strong>「看護 訪問スケジュール盤」とは別のアプリ</strong>です。以前の盤は影響を受けず、そのまま動いています。</p>
+</section>
+
+<section class="section" id="login">
+  <h2><span class="secno">02</span>ひらき方・ログイン・ログアウト</h2>
+  <div class="with-shot">
+    <div>
+      <ol class="steps">
+        <li><strong>画面のURLを開きます。</strong><p><a href="https://magokororehay-create.github.io/kango-week-app/">https://magokororehay-create.github.io/kango-week-app/</a></p></li>
+        <li><strong>管理者PINを入れ、「ひらく」を押します。</strong><p>画面上部に「管理者」と出ることを確認します。PINで役割が決まります。</p></li>
+        <li><strong>盤を確認します。</strong><p>最初は「型（全部）」の「曜日の盤」です。今日の曜日、土日なら月曜を開きます。</p></li>
+      </ol>
+    </div>
+    <figure class="small-shot"><a href="img/login.png"><img src="img/login.png" width="340" height="214" loading="lazy" alt="PIN欄と「ひらく」ボタンがあるログイン画面。"></a><figcaption>ログイン画面です。PINはこの説明書には記載していません。</figcaption></figure>
+  </div>
+  <h3>PINを間違えたとき</h3>
+  <p>入力を確かめます。続けて間違えると、端末ごとの待ち時間や、全体の受付停止がかかります。<strong>「あと約〇分」と出たら、繰り返し試さず待ってください。</strong>急ぐ場合は<a href="#help-lock">システム担当へ連絡</a>します。</p>
+  <h3>使い終わったとき</h3>
+  <ol>
+    <li>編集した場合は「まとめて確定」を押し、「保存しました」を確認します。</li>
+    <li>右上の「ログアウト」を押します。</li>
+    <li>PINの入力画面に戻ったことを確認します。</li>
+  </ol>
+  <div class="callout"><strong>未確定の変更があると、「ログアウト」「最新にする」は止まります。</strong><p>保存するなら「まとめて確定」、変更をやめるなら「1つ戻す」を必要な回数押します。未確定の表示が消えてから操作してください。</p></div>
+</section>
+
+<section class="section" id="screen">
+  <h2><span class="secno">03</span>画面の見取り図</h2>
+  <p>画像はすべて架空データです。画像を押すと原寸で開きます。</p>
+  <figure>
+    <div class="shot">
+      <a href="img/toolbar.png"><img src="img/toolbar.png" width="1400" height="265" loading="lazy" alt="上部の操作部分。"></a>
+      <span class="marker" style="--x:22.2%;--y:44.5%" aria-hidden="true">1</span>
+      <span class="marker" style="--x:18.8%;--y:59.2%" aria-hidden="true">2</span>
+      <span class="marker" style="--x:30.0%;--y:75.5%" aria-hidden="true">3</span>
+      <span class="marker" style="--x:35.9%;--y:91.7%" aria-hidden="true">4</span>
+      <span class="marker" style="--x:75.8%;--y:11.3%" aria-hidden="true">5</span>
+    </div>
+    <figcaption>上部の操作部分。①見方　②表示の切替　③曜日タブと未配置・休止中の件数　④予定ボタンと「利用者を足す」　⑤最新にする・印刷・ログアウト。</figcaption>
+  </figure>
+  <ul>
+    <li><strong>①〜③：</strong>見方・表示・曜日を順に選びます。③の右の「未配置」「休止中」は件数の表示で、対象の人は右の欄で確認します。</li>
+    <li><strong>④：</strong>予定を盤へドラッグするか、利用者を追加します。</li>
+    <li><strong>⑤：</strong>保存済みの最新データの読込み・印刷・ログアウトです。</li>
+  </ul>
+  <figure><a href="img/board_mon.png"><img src="img/board_mon.png" width="1400" height="1000" loading="lazy" alt="管理者の月曜の全画面。"></a><figcaption>月曜・型（全部）の全体です。盤は9:00〜17:00、列は訪問のコースを示します。狭い画面では、右の欄は盤の下に回ります。</figcaption></figure>
+  <p>赤い帯の説明は<a href="#colors">色・赤枠</a>と<a href="#save">下書きと保存</a>をご覧ください。</p>
+</section>
+
+<section class="section" id="views">
+  <h2><span class="secno">04</span>見方：型・第1〜5週・今週・来週</h2>
+  <ol>
+    <li>上の「見方」を開きます。</li>
+    <li>確認したい見方を選びます。</li>
+    <li>今週・来週では、右に出る月曜〜金曜の日付も確認します。</li>
+  </ol>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">見方</th><th scope="col">何が見えるか</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">型（全部）</th><td>毎週・第〇週の枠を並べます。今日休止中・終了済みの人や、期間が終わった枠は出ません。</td></tr>
+      <tr><th scope="row">第1〜5週</th><td>毎週と、選んだ第〇週の枠です。特定の月の日付を選ぶ機能ではありません。</td></tr>
+      <tr><th scope="row">今週・来週</th><td>各日付で、週・利用者の開始／終了・休止・枠の期間を判定します。予定は当日と毎週のものです。</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout accent"><strong>第〇週は、月の「日付」で決まります。</strong><p>1〜7日＝第1週、8〜14日＝第2週、15〜21日＝第3週、22〜28日＝第4週、29〜31日＝第5週です。カレンダーの段数ではなく、同じ月〜金でも途中で変わります。</p></div>
+  <div class="pair">
+    <figure><a href="img/board_mon_wk2.png"><img src="img/board_mon_wk2.png" width="1078" height="390" loading="lazy" alt="第2週の月曜の上部。"></a><figcaption>第2週。午前のB列には、第2・4週の枠が1件見えます。</figcaption></figure>
+    <figure><a href="img/board_mon_wk4.png"><img src="img/board_mon_wk4.png" width="1078" height="390" loading="lazy" alt="第4週の月曜の上部。"></a><figcaption>第4週。同じB列の同時刻にもう1件が加わり、赤枠になります。毎週の枠は、どちらにも出ます。</figcaption></figure>
+  </div>
+  <p>型・第〇週では、開始日が先でも「〇/〇から」の札つきで見えます。今週・来週は、その日の条件に合う枠だけが出ます。</p>
+  <p class="fine">右の欄は常に今日が基準です。来週の盤に再開後の枠が出ても、今日休止中なら右の「休止中」にも載ります。</p>
+</section>
+
+<section class="section" id="display">
+  <h2><span class="secno">05</span>表示：曜日の盤・週の一覧・一覧</h2>
+  <p>見方を変えずに、並べ方だけを切り替えられます。</p>
+  <h3>曜日の盤：1曜日を広く見て組み替える</h3>
+  <ol><li>「曜日の盤」を押し、曜日タブを選びます。</li><li>カードをドラッグして組み替えます。押すと詳細が開きます。</li></ol>
+  <figure><a href="img/board_mon_zoom.png"><img src="img/board_mon_zoom.png" width="1078" height="330" loading="lazy" alt="月曜の盤の拡大。時刻の目盛りと、同じ列で横に分かれたカード。"></a><figcaption>細いカードの氏名は先頭だけです。押すと全文を確認できます。</figcaption></figure>
+  <h3>週の一覧：月〜金を一度に比べる</h3>
+  <ol><li>「週の一覧」を押し、月〜金を比べます。入りきらなければ横へスクロールします。</li><li>見出しかカードを押すと、その曜日の盤へ移ります。詳細は、移った盤でもう一度カードを押します。</li></ol>
+  <figure><a href="img/week_view.png"><img src="img/week_view.png" width="1596" height="715" loading="lazy" alt="月曜から金曜を横に並べ、各曜日の中にA〜D列を表示した週の一覧。"></a><figcaption>週の一覧です。管理者は、ここで別の曜日へカードをドラッグすることもできます。</figcaption></figure>
+  <h3>一覧：時刻順に読む</h3>
+  <ol><li>「一覧」を押し、曜日と「自分の列」を選びます。全列は「（全部）」です。</li><li>時刻順に確認します。項目を押すと詳細が開きます。</li></ol>
+  <figure><a href="img/list_view.png"><img src="img/list_view.png" width="1096" height="161" loading="lazy" alt="列ごとに開始〜終了時刻とカード名を時刻順に並べた一覧表示。"></a><figcaption>列の選択は端末に記憶します。ドラッグは曜日の盤か週の一覧で行います。</figcaption></figure>
+</section>
+
+<section class="section" id="colors">
+  <h2><span class="secno">06</span>色・赤枠・重なり</h2>
+  <figure><div class="strip"><a href="img/legend.png"><img src="img/legend.png" width="1096" height="19" loading="lazy" alt="凡例。介護保険、医療保険、新規、予定、同じ週の重なり。"></a></div><figcaption>画面下の凡例です。スマホでは画像を横へスクロールできます。</figcaption></figure>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">色・札</th><th scope="col">意味</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">水色</th><td>介護保険です。</td></tr>
+      <tr><th scope="row">緑</th><td>医療保険です。</td></tr>
+      <tr><th scope="row">黄色</th><td>「新規」の利用者です。保険より優先する色です。チェックは管理者が外します。</td></tr>
+      <tr><th scope="row">薄い黄色・破線</th><td>予定と、保険が「その他」の利用者です。</td></tr>
+      <tr><th scope="row">第〇週・特指示などの札</th><td>週・特指示の期限・開始予定日・予定の日付などです。</td></tr>
+      <tr><th scope="row">赤枠</th><td>同じ列で時間が重なり、同じ週に来うるカードです。型の見方では、枠の期間が交わることも条件です。</td></tr>
+    </tbody>
+  </table></div>
+  <div class="pair">
+    <figure class="natural"><a href="img/board_wed_alt.png"><img src="img/board_wed_alt.png" width="328" height="130" loading="lazy" alt="同時刻に第1・3週と第2・4週のカードが横に並び、赤枠が付いていない例。"></a><figcaption>第1・3週と第2・4週は、来る週が違うため並んでも赤くなりません。</figcaption></figure>
+    <figure><a href="img/board_thu_more.png"><img src="img/board_thu_more.png" width="528" height="200" loading="lazy" alt="木曜の同じ列にカード2枚と「＋3」が並ぶ例。"></a><figcaption>4つ以上の横並びが必要になると、2枚と「＋N」にまとめます。Nは隠れたカードの数です。</figcaption></figure>
+  </div>
+  <div class="with-shot">
+    <div>
+      <h3>「＋N」で隠れたカードを確認する</h3>
+      <ol><li>盤の「＋N」を押すと、一まとまりの全カードが開きます。</li><li>カードを選び、詳細で週・期間・列・時刻を確認します。</li></ol>
+      <p>管理者の上部には「同じ週に重なっています：…」という赤い帯も出ます。別の曜日の重なりも並びます。<strong>看護師にはこの帯は出ません。</strong></p>
+      <div class="callout"><strong>赤枠があっても保存はできます。</strong><p>別の列同士は判定しません。訪問可能かは管理者が確認します。</p></div>
+    </div>
+    <figure class="drawer-shot"><a href="img/drawer_cluster.png"><img src="img/drawer_cluster.png" width="410" height="377" loading="lazy" alt="重なりの詳細欄。各カードの全文、時刻、週、同じ週の重なりの表示が並ぶ。"></a><figcaption>「＋N」内の全カードを確認できます。</figcaption></figure>
+  </div>
+</section>
+
+<section class="section" id="move">
+  <h2><span class="secno">07</span>カードを動かして組み替える</h2>
+  <ol class="steps">
+    <li><strong>カードをつかみます。</strong><p>曜日の盤か週の一覧で、押したまま動かします。スマホでは指で動かします。</p></li>
+    <li><strong>移動先の列・時刻へ運びます。</strong><p>点線の枠に「曜日・列・開始〜終了」が出ます。開始時刻は10分刻みです。</p></li>
+    <li><strong>目安を確認して離します。</strong><p>移動先と「下書き」の通知が出ます。盤の外で離すと移動しません。</p></li>
+    <li><strong>型と重なりを確認し、確定します。</strong><p>間違えたら「1つ戻す」。よければ「まとめて確定」です。</p></li>
+  </ol>
+  <figure><a href="img/drag_preview.png"><img src="img/drag_preview.png" width="1078" height="620" loading="lazy" alt="カードをC列の13時ごろへドラッグ中。"></a><figcaption>ドラッグ中の目安です。離す前に曜日・列・開始時刻を確認します。</figcaption></figure>
+  <figure class="natural"><img src="img/toast_moved.png" width="258" height="36" loading="lazy" alt="移動先と「下書き」を知らせる画面下の通知。"><figcaption>移動後の通知です。この時点では保存されていません。</figcaption></figure>
+  <div class="callout caution"><strong>どの見方でも、選んだ訪問枠そのものを動かします。</strong><p>毎週の枠を第2週の見方で動かしても、毎週の位置が変わります。第2・4週の枠なら両方の位置が変わります。週の指定・期間・分数は変わりません。</p></div>
+  <p>別の曜日へ移すには、<strong>「週の一覧」で隣の曜日へドラッグ</strong>するか、カードの詳細で曜日を選び直します。</p>
+  <p>ドラッグは9:00〜17:00に収まる範囲です。長い枠は詳細で「分」を確認します。位置を選びにくいときは、詳細の「開始」を使います。</p>
+  <p class="fine">日付つき予定の移動は、今週・来週では移動先の日付、型・第〇週ではその予定と同じ週内の日付になります。毎週の予定は繰り返しの曜日・列・時刻が変わります。</p>
+</section>
+
+<section class="section" id="save">
+  <h2><span class="secno">08</span>下書きと保存</h2>
+  <p>編集はまず<strong>その画面の下書き</strong>になります。自動保存はありません。詳細の「閉じる」も、保存・取り消しはしません。</p>
+  <figure class="small-shot"><img src="img/dirty.png" width="344" height="59" loading="lazy" alt="「未確定の変更 n件」と「1つ戻す」「まとめて確定」の操作欄。"><figcaption>件数は下書きの操作数です。利用者数ではありません。</figcaption></figure>
+  <ol class="steps">
+    <li><strong>編集して全体を見直します。</strong><p>見方・曜日・表示を切り替えても下書きは残ります。</p></li>
+    <li><strong>誤りは「1つ戻す」で戻します。</strong><p>直前から1操作ずつ、最大80件戻せます。入力欄の外では <kbd>Ctrl</kbd>＋<kbd>Z</kbd> も使えます。</p></li>
+    <li><strong>「まとめて確定」を押して待ちます。</strong><p>「保存しました」と黄色の欄が消えたことを確認します。確定後は「1つ戻す」で保存前へ戻れません。</p></li>
+  </ol>
+  <figure class="natural"><img src="img/toast_saved.png" width="106" height="36" loading="lazy" alt="「保存しました」という通知。"><figcaption>保存完了の通知です。カードが動いただけでは、保存完了ではありません。</figcaption></figure>
+  <h3>保存に関する2つのお知らせ</h3>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">表示</th><th scope="col">対応</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">他の人が先に保存しました</th><td>保存を止め、最新を読み込みます。<strong>成功すると下書きが置き換わります。</strong>最新を見て編集をやり直します。自動合体はありません。</td></tr>
+      <tr><th scope="row">シートに読めない値があります<br>（上の赤い帯）</th><td>保存できません。タブ名・行番号・項目を担当へ伝えます。修復後、下書きを整理して最新を読み直します。</td></tr>
+    </tbody>
+  </table></div>
+  <p>保存の競合は、赤い帯ではなく<strong>画面下の通知</strong>で知らせます。</p>
+  <div class="callout caution"><strong>閉じる・更新する前に確定してください。</strong><p>未確定なら離れる警告が出ますが、続けると下書きが失われます。閉じた後に下書きを復元する機能はありません。</p></div>
+</section>
+
+<section class="section" id="details">
+  <h2><span class="secno">09</span>詳細を開いて編集する</h2>
+  <div class="with-shot">
+    <div>
+      <ol class="steps">
+        <li><strong>曜日の盤でカードを押します。</strong><p>選んだ枠が先頭に縁取りされます。同じ人のほかの枠も続きます。</p></li>
+        <li><strong>対象の枠の欄を直します。</strong><p>入力後は別の欄を押して入力を終えます。チェックはその場で反映します。</p></li>
+        <li><strong>「閉じる」で盤を見直し、確定します。</strong></li>
+      </ol>
+      <h3>曜日の枠で変えられること</h3>
+      <ul>
+        <li><strong>曜日・列・開始：</strong>枠の置き場所です。開始は10分刻みにそろいます。</li>
+        <li><strong>分：</strong>この枠の長さです。1〜600の整数です。</li>
+        <li><strong>週：</strong>毎週、または第1〜5週を選びます。</li>
+        <li><strong>期間開始・期間終了：</strong>枠の有効期間です。空欄なら、その側の期限はありません。</li>
+        <li><strong>特指示：</strong>特指示の枠として扱うチェックです。</li>
+      </ul>
+    </div>
+    <figure class="drawer-shot"><a href="img/drawer_client.png"><img src="img/drawer_client.png" width="410" height="1000" loading="lazy" alt="利用者の詳細欄。"></a><figcaption>下へスクロールすると、標準分・開始日・終了日・休止があります。</figcaption></figure>
+  </div>
+  <h3>毎週から、第1・3週などへ変える</h3>
+  <ol><li>「毎週」を外します。最初は今日の第〇週が選ばれます。</li><li>必要な週にチェックを入れ、不要な週を外します。</li></ol>
+  <div class="callout accent"><strong>第〇週を全部外すと「毎週」に戻ります。</strong><p>訪問を止める操作ではありません。止める場合は休止・終了・枠の削除を使います。</p></div>
+  <h3>枠を足す・消す</h3>
+  <ol><li>「この人の枠を足す」を押します。表示中の曜日・最初の列・10:00に、標準分の毎週枠ができます。</li><li>曜日・列・開始・分・週・期間を直します。</li><li>不要な枠は「枠を消す」を押し、盤で確認して確定します。利用者は消えません。最後の枠なら、休止中・終了済みでなければ未配置へ戻ります。</li></ol>
+  <h3>利用者の「基本」</h3>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">項目</th><th scope="col">使い方・注意</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">氏名・保険・新規</th><td>必要に応じて直します。黄色を終えるときは「新規」を外します。</td></tr>
+      <tr><th scope="row">メモ</th><td>看護師も読めます。必要な補足に絞ります。</td></tr>
+      <tr><th scope="row">標準分</th><td>新しく作る枠の分数（1〜600）です。<strong>既存枠は変わりません。</strong></td></tr>
+      <tr><th scope="row">開始日・終了日</th><td>利用者全体の期間です。今週・来週は各日で判定し、終了日当日まで表示します。終了日は開始日以降にします。</td></tr>
+    </tbody>
+  </table></div>
+  <p>枠の期間終了も<strong>当日を含みます</strong>。実際の日付で来る人を確認するときは「今週」「来週」を使います。</p>
+</section>
+
+<section class="section" id="special">
+  <h2><span class="secno">10</span>特指示の期間と枠</h2>
+  <div class="with-shot">
+    <div>
+      <p>特指示は<strong>期間つきの曜日の枠</strong>です。</p>
+      <ol class="steps">
+        <li><strong>カードを開きます。</strong><p>通常枠も残すなら「この人の枠を足す」で別枠を作ります。</p></li>
+        <li><strong>曜日・列・開始・分・期間を入れ、「特指示」にチェックします。</strong><p>期間終了が空欄なら、期限では消えません。</p></li>
+        <li><strong>必要なら「月〜金すべてに置く」を押します。</strong><p>同じ列・時刻・分・週・期間の枠を、まだない曜日に追加します。</p></li>
+        <li><strong>全曜日の重なりを確認し、確定します。</strong></li>
+      </ol>
+      <div class="callout caution"><strong>追加後は曜日ごとに別の枠です。</strong><p>1枠の変更は他の曜日へ連動しません。曜日ごとに直します。条件変更後にもう一度このボタンを押すと、以前の枠とは別に増えることがあります。</p></div>
+    </div>
+    <figure class="drawer-shot"><a href="img/drawer_sp.png"><img src="img/drawer_sp.png" width="410" height="1000" loading="lazy" alt="特指示にチェックがあり、期間開始・期間終了と「月〜金すべてに置く」が表示された詳細欄。"></a><figcaption>特指示の期間は枠ごとです。基本の開始日・終了日とは別です。</figcaption></figure>
+  </div>
+  <div class="with-shot">
+    <div>
+      <h3>期間が終わったら</h3>
+      <p>型の見方では、終了日の翌日から右の<strong>「終わった特指示」</strong>へ移ります。枠は残ります。今週・来週は各日で判定するため、週内の終了日以前には見えることがあります。</p>
+      <ol><li>「期間を延ばす」を押し、対象枠の期間を直します。</li><li>他の曜日も確認し、確定します。不要なら「枠を消す」を使います。</li></ol>
+      <p class="fine">利用者の終了日が今日より前なら、この欄にも出ません。</p>
+    </div>
+    <figure class="small-shot"><a href="img/tray.png"><img src="img/tray.png" width="260" height="346" loading="lazy" alt="右の欄。"></a><figcaption>右の欄です。未配置・休止中・終わった特指示を確認できます。</figcaption></figure>
+  </div>
+</section>
+
+<section class="section" id="pause">
+  <h2><span class="secno">11</span>入院などの休止と再開</h2>
+  <p>入院などでは<strong>「休止にする」</strong>を使います。元の曜日・列・時刻・週は残ります。</p>
+  <h3>今日から休止する</h3>
+  <ol class="steps"><li><strong>カードを開き、下の「休止」へ進みます。</strong></li><li><strong>理由と再開予定を入れます。</strong><p>理由の初期値は「入院」です。再開予定は今日より後の日付、未定なら空欄にします。</p></li><li><strong>「休止にする」を押して確定します。</strong><p>今日から休止し、右の「休止中」に載ります。</p></li></ol>
+  <h3>再開予定日を決めている場合</h3>
+  <p><strong>再開予定日当日から、元の型が表示対象に戻ります。</strong>今週・来週では、再開日以後の枠を先に確認できます。</p>
+  <p>理由や予定日の入力自体は残ります。不要なら「再開」で設定を外して確定します。枠の期間や利用者の終了日が過ぎていれば、再開だけでは表示されません。</p>
+  <h3>予定より早く再開する／未定から再開する</h3>
+  <ol><li>右の「休止中」で「再開」を押すか、利用者の詳細で「再開」を押します。</li><li>休止設定が外れ、元の曜日・列・時刻へ戻ったことを確認します。</li><li>「まとめて確定」を押します。</li></ol>
+  <div class="callout"><strong>再開予定が空欄なら、自動では戻りません。</strong><p>予定を後から入れるには、休止中の利用者名を押し、「再開予定」を入力して確定します。</p></div>
+</section>
+
+<section class="section" id="new">
+  <h2><span class="secno">12</span>新しい利用者を足す</h2>
+  <div class="with-shot">
+    <div>
+      <ol class="steps">
+        <li><strong>「利用者を足す」を押します。</strong><p>氏名・保険・標準分を入れます。標準分の初期値は60分です。</p></li>
+        <li><strong>「未配置に入れる」を押します。</strong><p>「新規」が付いた黄色のカードで、右の未配置へ入ります。</p></li>
+        <li><strong>曜日を選び、未配置から盤へドラッグします。</strong><p>標準分の<strong>毎週枠</strong>ができます。第〇週の見方でも、その週限定にはなりません。</p></li>
+        <li><strong>詳細で週・期間・開始日などを直し、確定します。</strong><p>別の曜日は「この人の枠を足す」で追加します。</p></li>
+      </ol>
+    </div>
+    <figure class="drawer-shot"><a href="img/drawer_new.png"><img src="img/drawer_new.png" width="410" height="288" loading="lazy" alt="利用者追加欄。氏名、保険、標準分と「未配置に入れる」ボタン。"></a><figcaption>新しい利用者を入れる画面です。追加直後は訪問枠がなく、未配置に出ます。</figcaption></figure>
+  </div>
+  <div class="callout accent"><strong>未配置は「枠が1つもない人」です。</strong><p>選んだ週に枠がない人や、期間切れの枠が残る人は入りません。「型（全部）」や「終わった特指示」も確認します。</p></div>
+</section>
+
+<section class="section" id="events">
+  <h2><span class="secno">13</span>サ担・会議・契約などの予定</h2>
+  <p>サ担・会議・契約・その他を、日付つきか毎週の予定として載せます。</p>
+  <figure><div class="strip"><a href="img/event_buttons.png"><img src="img/event_buttons.png" width="1368" height="41" loading="lazy" alt="「予定を盤へドラッグ：」に続くサ担・会議・契約・その他のボタン。"></a></div><figcaption>予定ボタンです。押すだけでは作成されません。スマホでは画像を横へスクロールできます。</figcaption></figure>
+  <div class="with-shot">
+    <div>
+      <ol class="steps">
+        <li><strong>種類のボタンを盤へドラッグします。</strong><p>置きたい列・時刻へ運びます。初期の長さは60分です。</p></li>
+        <li><strong>詳細で内容・日付・列・開始・分を確認します。</strong><p>自動入力の日付を必ず確かめます。曜日は月〜金です。</p></li>
+        <li><strong>繰り返すなら「毎週」にチェックします。</strong><p>日付欄が曜日欄へ変わります。</p></li>
+        <li><strong>「閉じる」で盤へ戻り、確定します。</strong><p>削除は詳細の「予定を消す」→確定です。</p></li>
+      </ol>
+    </div>
+    <figure class="drawer-shot"><a href="img/drawer_event.png"><img src="img/drawer_event.png" width="410" height="356" loading="lazy" alt="予定の詳細。種類、内容、毎週チェック、日付、列・開始・分、予定を消すボタン。"></a><figcaption>予定の詳細です。日付が違えば、欄で直してから確定してください。</figcaption></figure>
+  </div>
+  <h3>最初に入る日付</h3>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">作成したときの見方</th><th scope="col">初期の日付</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">型（全部）／第1〜5週</th><td><strong>来週のその曜日</strong>です。選択した第〇週の日付ではありません。</td></tr>
+      <tr><th scope="row">今週</th><td>今週のその曜日です。今日より前になる場合もあります。</td></tr>
+      <tr><th scope="row">来週</th><td>来週の、置いた曜日の日付です。</td></tr>
+    </tbody>
+  </table></div>
+  <p>「毎週」を外すと、<strong>現在の見方で日付を入れ直します</strong>。以前の日付には戻りません。</p>
+  <h3>過ぎた予定はどうなるか</h3>
+  <p>型・第〇週では、今日より前の予定は消えますが、<strong>データは残ります</strong>。毎週の予定は消えません。「今週」は実日付で表示するため、週内の過ぎた曜日の予定も見えます。</p>
+</section>
+
+<section class="section" id="nurse">
+  <h2><span class="secno">14</span>看護師にはどう見えるか</h2>
+  <div class="with-shot">
+    <div>
+      <p>看護師PINでは<strong>見るだけ</strong>です。カードを動かす、編集する、追加する、保存することはできません。</p>
+      <ol class="steps"><li><strong>同じURLを看護師PINでひらきます。</strong><p>最初は「今週」の「一覧」、今日の曜日（土日なら月曜）です。</p></li><li><strong>曜日と「自分の列」を選びます。</strong><p>列は端末に記憶します。「（全部）」で全列を表示します。</p></li><li><strong>時刻順に読み、項目を押して詳細を確認します。</strong><p>曜日の盤や週の一覧にも切り替えられます。</p></li><li><strong>管理者の保存後は「最新にする」を押します。</strong><p>未確定の下書きは見えません。</p></li></ol>
+      <div class="callout"><strong>看護師に上の赤い帯は出ません。</strong><p>盤の赤枠や一覧の「重なり」は見えます。必要な連絡は管理者が別途行います。</p></div>
+    </div>
+    <figure class="phone"><a href="img/nurse_phone.png"><img src="img/nurse_phone.png" width="780" height="1688" loading="lazy" alt="看護師のスマホ画面。"></a><figcaption>看護師のスマホ表示例です。初期表示は今週の一覧です。</figcaption></figure>
+  </div>
+</section>
+
+<section class="section" id="print">
+  <h2><span class="secno">15</span>印刷する</h2>
+  <ol class="steps"><li><strong>見方・表示・曜日を選びます。</strong><p>今週・来週は日付も確認します。</p></li><li><strong>必要なら先に確定します。</strong><p>下書きも印刷できますが、「未確定の下書き」と付きます。</p></li><li><strong>「印刷」を押します。</strong><p>設定はA4横です。プレビューで向き・収まりを確認します。</p></li></ol>
+  <div class="table-wrap"><table>
+    <thead><tr><th scope="col">印刷前の表示</th><th scope="col">印刷する内容</th></tr></thead>
+    <tbody><tr><th scope="row">曜日の盤</th><td>選んでいる曜日の盤です。</td></tr><tr><th scope="row">週の一覧</th><td>月〜金の週の一覧です。</td></tr><tr><th scope="row">一覧</th><td>印刷時だけ、選んでいる曜日の<strong>盤へ切り替わります</strong>。「自分の列」で絞っていても、盤の全列を印刷します。印刷を終えると一覧表示に戻ります。</td></tr></tbody>
+  </table></div>
+  <p>操作部分・赤い帯・右の欄・詳細欄は印刷しません。「＋N」の中身も展開しません。必要な詳細は画面で確認します。</p>
+  <p class="fine">この説明書自体を印刷する場合は、ブラウザの印刷を使います。説明書はA4縦の設定です。</p>
+</section>
+
+<section class="section" id="help">
+  <h2><span class="secno">16</span>困ったとき（Q&amp;A）</h2>
+  <div class="help"><h3>Q. 保存できない／確定ボタンが押せません</h3><ol><li>管理者ログインと、未確定の変更があるかを確認します。</li><li>「シートに読めない値」の赤い帯は、タブ名・行番号・項目をシステム担当へ伝えます。</li><li>入力の通知に従い、日付・分数などを直します。「混み合っています」は少し待って再度試します。</li></ol></div>
+  <div class="help"><h3>Q. 「通信できませんでした」と出ます</h3><ol><li>接続を確認します。下書きがあれば、ページを閉じたり更新したりしません。</li><li>接続後、もう一度確定します。続く場合は表示文と状況を担当へ伝えます。</li></ol><p>保存中に切れた場合は、保存済みか不明なことがあります。同じ編集を重ねず、担当に最新との照合を依頼します。</p></div>
+  <div class="help"><h3>Q. 「他の人が先に保存しました」と出ました</h3><p>保存を止め、最新の盤を読み直します。<strong>成功すると下書きは置き換わります。</strong></p><ol><li>最新の内容を確認し、先に保存した人と相談します。</li><li>必要な変更をやり直し、確定します。</li></ol><p>読込みも通信に失敗した場合は、最新に切り替わっていないことがあります。担当へ相談します。</p></div>
+  <div class="help"><h3>Q. 「PINが未設定です」と出ます</h3><p>システム担当へ依頼します。Apps Script のスクリプト プロパティ名は <code>VIEW_PIN</code>・<code>ADMIN_PIN</code>（半角アンダーバー）です。両方を別の値で設定します。値は問い合わせ文に書きません。</p></div>
+  <div class="help" id="help-lock"><h3>Q. PINを間違えて締め出されました</h3><p>表示された時間を待ち、急ぐ場合は担当へ連絡します。全体の受付停止は、担当がスクリプト プロパティに <code>UNLOCK</code>＝<code>1</code> を入れると、次のログイン試行で解除します。<strong>端末ごとの待ち時間は解除しません。</strong></p></div>
+  <div class="help"><h3>Q. 保存前の状態へ戻したいです</h3><p>下書きなら「1つ戻す」です。確定済みなら担当へ復元を依頼します。保存直前の状態は<strong>バックアップに最大30件</strong>残ります。</p><ol><li>担当が日時と内容を確認します。</li><li>担当がスクリプト プロパティ <code>RESTORE_ROW</code> に件番号を入れます。見出しの次の行が1件目です。</li><li>担当がエディタから <code>restoreBackup</code> を実行します。復元前の現状もバックアップへ残ります。</li><li>連絡後、下書きを整理して「最新にする」で確認します。</li></ol><p><strong>復元は盤全体です。</strong>他の人の保存も戻るため、対象時点を確認します。通常の画面に復元ボタンはありません。</p></div>
+  <div class="help"><h3>Q. 枠が見えません</h3><ol><li>見方・曜日を確認し、一覧の「自分の列」を「（全部）」にします。</li><li>「型（全部）」、休止中、期間・終了日、終わった特指示を確認します。</li><li>「＋N」があれば開きます。</li></ol></div>
+  <div class="help"><h3>Q. ログアウト・最新にするができません</h3><p>未確定の変更を確定するか、「1つ戻す」で戻し、黄色の欄が消えてから操作します。</p></div>
+  <div class="help"><h3>Q. ログインの有効期限が切れました</h3><p>PINを入れ直し、最新を確認します。PIN変更でもログイン状態が切れます。保存中に出た場合は、保存完了とは扱いません。</p></div>
+  <p class="back"><a href="#top">ページの先頭へ ↑</a></p>
+</section>
+
+<section class="section" id="rules">
+  <h2><span class="secno">17</span>運用の決めごと</h2>
+  <ul>
+    <li><strong>修正は画面から行います。</strong>元シートの手編集は、読めない値で保存が止まる原因になります。修復はシステム担当へ依頼します。</li>
+    <li><strong>日々の変更は iBow です。</strong>この盤は繰り返しの型を変えます。</li>
+    <li><strong>管理者の同時編集を避けます。</strong>自動合体はありません。閲覧中の端末は「最新にする」で更新します。</li>
+    <li><strong>変更履歴は日時・役割・件数、操作記録はログインや復元などです。</strong>利用者名・PINは残りません。誰が操作したかは個人でなく役割の記録です。</li>
+    <li><strong>バックアップには氏名・メモも含みます。</strong>そのまま外部へ出しません。問い合わせの画像も個人情報を隠し、PINは書きません。</li>
+  </ul>
+  <div class="callout"><strong>確定前に「曜日・列・時刻・週・期間」を確認します。</strong><p>型の変更範囲と、実日付での見え方を確かめて保存してください。</p></div>
+</section>
+<footer>
+  <p>株式会社まごころ 訪問看護<br>画像はすべて架空の利用者データによる説明用画面です。</p>
+  <p>説明書はオフラインでも読めます。HTMLと img フォルダを一緒に保管します。アプリの利用には通信が必要です。説明書はA4縦で印刷できます。</p>
+  <p><a href="#top">先頭へ戻る ↑</a></p>
+</footer>
+</main>
+</body>
+</html>
